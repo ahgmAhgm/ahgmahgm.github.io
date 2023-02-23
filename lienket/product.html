@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html style="margin: 0;">
+<head>
+	<title>AHGM</title>
+	<link rel="shortcut icon" href="../picture/main-background.png">
+	<link rel="stylesheet" href="../css/main.css">
+	<script>
+		document.addEventListener('contextmenu', event => event.preventDefault());
+		document.onkeydown = function (e) {
+			// disable F12 key
+			if(e.keyCode == 123) {
+				var coko = confirm("Bạn không có quyền nhấn phím F12. Để thực hiện, vui lòng nhấn có để nhập KEY")
+				if (coko === true) {
+					var key = prompt("KEY")
+					if (key === "ahgmAHGM") {
+						alert("Thành Công, Nhấn ok để tiếp tục")
+					} else {
+						alert("Ngu Dốt, không có quyền vì KEY sai")
+						return false;
+					}
+				} else {
+					alert("Bạn Đã Hủy bỏ 😒")
+					return false;
+				}
+			}
+			// disable I key
+			if(e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+				var coko = confirm("Bạn không có quyền sử dụng tổ hợp phím Ctrl+Shift+I. Để thực hiện, vui lòng nhấn có để nhập KEY")
+				if (coko === true) {
+					var key = prompt("KEY")
+					if (key === "ahgmAHGM") {
+						alert("Thành Công, Nhấn ok để tiếp tục")
+					} else {
+						alert("Ngu Dốt, không có quyền vì KEY sai")
+						return false;
+					}
+				} else {
+					alert("Bạn Đã Hủy bỏ 😒")
+					return false;
+				}
+			}
+			// disable J key
+			if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+				var coko = confirm("Bạn không có quyền sử dụng tổ hợp phím Ctrl+Shift+J. Để thực hiện, vui lòng nhấn có để nhập KEY")
+				if (coko === true) {
+					var key = prompt("KEY")
+					if (key === "ahgmAHGM") {
+						alert("Thành Công, Nhấn ok để tiếp tục")
+					} else {
+						alert("Ngu Dốt, không có quyền vì KEY sai")
+						return false;
+					}
+				} else {
+					alert("Bạn Đã Hủy bỏ 😒")
+					return false;
+				}
+			}
+			// disable U key
+			if(e.ctrlKey && e.keyCode == 85) {
+				var coko = confirm("Bạn không có quyền sử dụng tổ hợp phím Ctrl+Shift+U. Để thực hiện, vui lòng nhấn có để nhập KEY")
+				if (coko === true) {
+					var key = prompt("KEY")
+					if (key === "ahgmAHGM") {
+						alert("Thành Công, Nhấn ok để tiếp tục")
+					} else {
+						alert("Ngu Dốt, không có quyền vì KEY sai")
+						return false;
+					}
+				} else {
+					alert("Bạn Đã Hủy bỏ 😒")
+					return false;
+				}
+			}
+		}
+	</script>
+</head>
+<body onmousedown="return false" oncopy="return false">
+	<nav>
+		<ul>
+			<li><a href="../index.html">Trang chủ</a></li>
+			<li><a href="../lienket/introduction.html">Giới thiệu</a></li>
+			<li><a href="../lienket/product.html" class="active">Sản phẩm</a></li>
+			<li><a href="../lienket/contact.html">Liên hệ</a></li>
+		</ul>
+ 	</nav>
+	<h1>PRODUCT</h1>
+	<div>
+		<p>
+			Tải Clock.exe:<br>
+				<a href="https://raw.githubusercontent.com/ahgmAhgm/clocknew/main/Clock.exe" class="Clock-exe">BẤM VÀO ĐÂY ĐỂ TẢI XUỐNG</a>
+		</p>
+	</div>
+</body>
+</html>
